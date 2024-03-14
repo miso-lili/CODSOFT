@@ -1,0 +1,248 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+    background-color: rgb(41, 40, 40);
+    
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 700px;
+}
+
+.nav-bar-logo {
+    color: rgb(200, 133, 144); 
+    font-size: 24px; 
+    font-weight: 600; 
+    text-shadow: 5px 5px 3px black, -5px -5px 3px rgb(50, 49, 49); 
+    padding: 16px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 20px 20px;
+    /* flex-direction: row-reverse; */
+}
+
+.nav-links li a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(133, 133, 49);
+}
+
+.nav-links li a:hover {
+    /* color: #c977d0; */
+}
+
+.header-1 {
+    color: rgb(200, 133, 144);
+    font-weight: 600;
+    font-size: 63px;
+    padding: 48px 43px;
+    position: relative;
+}
+
+.header-1 h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 28px;
+}
+
+.header-1 p {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 28px;
+    text-decoration: wavy;
+}
+
+.wallpaper {
+    position: absolute;
+    height: 14cm;
+    left: 624px;
+    top: 15px;
+}
+
+.resume-button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-left: 34px;
+    color: rgb(41, 40, 40);
+    cursor: pointer;
+    background-color: rgb(200, 133, 144);
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 6px 6px rgba(1, 1, 1, 0.1) inset;
+}
+.resume-button:hover {
+    padding: 8px 16px;
+    border: 2px solid rgb(200, 133, 144);
+    border-radius: 5px;
+    margin-left: 34px;
+    color: rgb(200, 133, 144);
+    cursor: pointer;
+    background-color: rgb(41, 40, 40);
+}
+
+ .bxs-download:hover {
+    background-color: rgb(41, 40, 40);
+    color: rgb(41, 40, 40); 
+}
+
+.about {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 48px 48px;
+    border-radius: 1rem;
+    border: 2px solid rgb(200, 133, 144) ;
+    margin-top: 350px;
+    color: rgb(225, 163, 173);
+    height: 500px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 379px;
+}
+
+.about img {
+    height: 10cm;
+    position: relative;
+    border-radius: 0.5rem;
+    right: 114px;
+}
+
+.about-text {
+    width: 80%;
+}
+
+.about p {
+    font-size: 24px;
+}
+
+.about p {
+    color: rgb(225, 163, 173);
+    margin-top: 22px;
+}
+
+.projects {
+    padding: 48px 48px;
+    color: rgb(225, 163, 173);
+    border-radius: 1rem;
+    border: 2px solid rgb(200, 133, 144) ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    height: 500px;
+}
+
+.code-btn {
+    margin-top: 60px;
+    padding: 10px 25px;
+    color: rgb(41, 40, 40);
+    background-color: rgb(225, 163, 173);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    position: relative;
+    top: 23px;
+}
+
+.code-btn:hover {
+    margin-top: 60px;
+    padding: 10px 25px;
+    background-color: rgb(41, 40, 40);
+    color: rgb(225, 163, 173);
+    border-radius: 0.5rem;
+    border: 2px solid rgb(225, 163, 173);
+    text-decoration: none;
+    position: relative;
+    top: 23px;
+}
+
+.skills {
+    padding: 48px 48px;
+    color: rgb(225, 163, 173);
+    border-radius: 1rem;
+    border: 2px solid rgb(200, 133, 144) ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    height: 520px;
+}
+
+.lists {
+    font-size: 30px;
+}
+
+.lists li {
+    margin-top: 20px;
+}
+
+.hobbies {
+    border-radius: 1rem;
+    border: 2px solid rgb(200, 133, 144) ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding: 48px 48px;
+    color: rgb(225, 163, 173);
+    height: 500px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.contact {
+    border-radius: 1rem;
+    border: 2px solid rgb(200, 133, 144) ;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding: 48px 48px;
+    color: rgb(225, 163, 173);
+    height: 500px;
+    width: 50%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+.contact-info {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.about-contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    justify-content: center;
+     text-align: center;
+    color: rgb(225, 163, 173);
+    padding: 90px;
+    background-color: rgb(41, 40, 40);
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.icons a {
+    color: rgb(225, 163, 173);
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+}
